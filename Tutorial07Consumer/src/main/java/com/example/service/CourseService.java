@@ -8,4 +8,6 @@ import com.example.model.StudentModel;
 public interface CourseService
 {
     CourseModel selectCourse (String id_course);
+    
+    List<CourseModel> selectAllCourses ();
 }

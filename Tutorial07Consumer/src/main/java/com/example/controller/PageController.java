@@ -100,6 +100,15 @@ public class PageController
 
         return "viewall";
     }
+    
+    @RequestMapping("/course/viewall")
+    public String viewAllCourse (Model model)
+    {
+        List<CourseModel> courses = courseDAO.selectAllCourses ();
+        model.addAttribute ("courses", courses);
+
+        return "viewallcourse";
+    }
 
 
     @RequestMapping("/student/delete/{npm}")
