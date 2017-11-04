@@ -10,6 +10,7 @@
 	  		<table id="myTable2" class="display">
 			    <thead>
 			        <tr>
+			        	<th>No</th>
 			            <th>Id</th>
 			            <th>Name</th>
 			            <th>Credits</th>
@@ -20,9 +21,9 @@
 			    	<div th:each="course,iterationStatus: ${courses}" th:class="${iterationStatus.odd}? 'odd'">
 				        <tr>
 				            <td><h3 th:text="'No. ' + ${iterationStatus.count}">No. 1</h3></td>
-				            <td><h3 th:text="'NPM = ' + ${course.idCourse}"></h3></td>
+				            <td><h3 th:text="'Id = ' + ${course.idCourse}"></h3></td>
 				            <td><h3 th:text="'Name = ' + ${course.name}"></h3></td>
-				            <td><h3 th:text="'GPA = ' + ${course.credits}"></h3></td>
+				            <td><h3 th:text="'Credits = ' + ${course.credits}"></h3></td>
 				        
 				            
 				          
