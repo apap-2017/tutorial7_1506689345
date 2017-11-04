@@ -1,0 +1,13 @@
+/home/bellnadh/eclipse-workspace/Tutorial07/Tutorial07Consumer/src/main/java/com/example/service/StudentService.java
+/home/bellnadh/eclipse-workspace/Tutorial07/Tutorial07Consumer/src/main/java/com/example/model/CourseModel.java
+/home/bellnadh/eclipse-workspace/Tutorial07/Tutorial07Consumer/src/main/java/com/example/dao/CourseMapper.java
+/home/bellnadh/eclipse-workspace/Tutorial07/Tutorial07Consumer/src/main/java/com/example/dao/StudentMapper.java
+/home/bellnadh/eclipse-workspace/Tutorial07/Tutorial07Consumer/src/main/java/com/example/controller/PageController.java
+/home/bellnadh/eclipse-workspace/Tutorial07/Tutorial07Consumer/src/main/java/com/example/service/CourseServiceDatabase.java
+/home/bellnadh/eclipse-workspace/Tutorial07/Tutorial07Consumer/src/main/java/com/example/service/StudentServiceRest.java
+/home/bellnadh/eclipse-workspace/Tutorial07/Tutorial07Consumer/src/main/java/com/example/dao/StudentDAOImpl.java
+/home/bellnadh/eclipse-workspace/Tutorial07/Tutorial07Consumer/src/main/java/com/example/dao/StudentDAO.java
+/home/bellnadh/eclipse-workspace/Tutorial07/Tutorial07Consumer/src/main/java/com/example/service/CourseService.java
+/home/bellnadh/eclipse-workspace/Tutorial07/Tutorial07Consumer/src/main/java/com/example/ApapTutorial07Producer.java
+/home/bellnadh/eclipse-workspace/Tutorial07/Tutorial07Consumer/src/main/java/com/example/service/StudentServiceDatabase.java
+/home/bellnadh/eclipse-workspace/Tutorial07/Tutorial07Consumer/src/main/java/com/example/model/StudentModel.java

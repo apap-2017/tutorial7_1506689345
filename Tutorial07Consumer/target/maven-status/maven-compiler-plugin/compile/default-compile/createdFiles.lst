@@ -1,0 +1,13 @@
+com/example/ApapTutorial07Producer.class
+com/example/service/StudentService.class
+com/example/service/CourseService.class
+com/example/dao/StudentDAO.class
+com/example/service/CourseServiceDatabase.class
+com/example/service/StudentServiceRest.class
+com/example/dao/StudentMapper.class
+com/example/service/StudentServiceDatabase.class
+com/example/dao/StudentDAOImpl.class
+com/example/model/StudentModel.class
+com/example/dao/CourseMapper.class
+com/example/model/CourseModel.class
+com/example/controller/PageController.class

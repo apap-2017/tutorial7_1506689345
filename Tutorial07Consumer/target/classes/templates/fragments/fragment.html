@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+	<head>
+		<title>fragment</title>
+		<div th:fragment="links"> 
+			<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css"></link>
+			<link rel="stylesheet" type="text/css" href="../js/datatables.min.css"></link>
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        	<link rel="stylesheet" type="text/css" href="/css/datatables.min.css"/>
+   			<script type="text/javascript" src="/js/datatables.min.js"></script>
+			<link rel="stylesheet" type="text/css" href="../js/datatables.css"></link>
+			
+			<script>
+				$(document).ready( function () {
+	    			$('#myTable').DataTable();
+				} );
+			</script>
+			<script type="text/javascript" charset="utf8" src="../js/datatables.min.js"></script>
+			<script type="text/javascript" charset="utf8" src="../js/datatables.js"></script>
+		</div>
+	</head>
+	<body>
+		<div th:fragment="header">
+					<ul>
+						<li><a href="/">Home</a></li>
+						<li><a href="/student/viewall">Daftar Mahasiswa</a></li>
+						<li><a href="/student/add">Menambah Mahasiswa</a></li>
+					</ul>
+		</div>
+		<div th:fragment="body"></div>
+		<div th:fragment="footer">
+			<hr/>
+			<h4>Copyright &copy; Mata Kuliah APAP</h4>
+		</div>
+	</body>	
+</html>
